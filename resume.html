@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Aaron Krueger</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <h1 class="main_header top">Aaron Krueger</h1>
+    <h3 class="main_header">
+      Computer science student in the Greater Boston area
+    </h3>
+
+    <div id="navbar_placeholder"></div>
+    <script>
+      // use JQuery to load the navigation bar without having to copy all the HTML
+      $(function () {
+        $("#navbar_placeholder").load("navbar.html");
+      });
+    </script>
+
+    <br />
+    <hr />
+    <br />
+
+    <div id="resumemain">
+      <div id="experience">
+        <h3 class="header">Experience</h3>
+        <h4 class="header">Student Assistant - WPI - Worcester, MA</h4>
+        <p class="subtitle">August 2020 - Present</p>
+        <ul>
+          <li>
+            Assisted WPI students with learning and provided assistance to
+            professors through grading and office hours
+          </li>
+        </ul>
+        <h4 class="header">MathWorks EDG Intern - MathWorks - Natick, MA</h4>
+        <p class="subtitle">May - August 2020</p>
+        <ul>
+          <li>
+            Created and utilized continuous integration and continuous
+            deployment (CI/CD) tools with the Release Engineering team and
+            obtained a great overview of the software development lifecycle in
+            the process
+          </li>
+          <li>
+            Facilitated build and test of hundreds of software components and
+            ensured thousands of changes proliferated through my portion of the
+            software hierarchy
+          </li>
+          <li>
+            Maintained software components and development infrastructure using
+            various tools such as Perforce and internal software
+          </li>
+          <li>Reference available on request</li>
+        </ul>
+        <h4 class="header">
+          Data Application Consultant - Children's Hospital - Boston, MA
+        </h4>
+        <p class="subtitle">June - August 2019</p>
+        <ul>
+          <li>
+            Designed a Python script that uses Python libraries such as Tkinter
+            and OpenPyXL to compile thousands of rows of information from
+            several tables onto a single spreadsheet, visualizing the data in
+            the process
+          </li>
+          <li>
+            Discussed goals of program with a supervisor and aided in local
+            deployment
+          </li>
+          <li>
+            Shortened overall process from several hours to just seconds, and
+            data affected by the script appeared in a research paper
+          </li>
+          <li>Reference available on request</li>
+        </ul>
+        <h4 class="header">Code Coach - theCoderSchool - Natick/Sudbury, MA</h4>
+        <p class="subtitle">May 2019 - Present</p>
+        <ul>
+          <li>
+            Taught students ages 7+ a variety of programming languages such as
+            HTML/CSS/JavaScript, Scratch, and Python in a classroom setting
+          </li>
+        </ul>
+      </div>
+      <br />
+      <div id="projects">
+        <h3 class="header">Projects</h3>
+        <h4 class="header">Flowability Research - WPI</h4>
+        <p class="subtitle">May 2020 - Present</p>
+        <ul>
+          <li>
+            Researched information on materials science topics on an
+            interdisciplinary team of students from various backgrounds and
+            experience levels
+          </li>
+          <li>
+            Utilized machine learning through Python with libraries such as
+            scikit, numpy, and pandas to research relations between various
+            aspects of powder flowability based on massive datasets
+          </li>
+          <li>
+            Implemented statistical methods (i.e. LDA/QDA) on a pre-built
+            framework to analyze and visualize information about specific
+            materials
+          </li>
+        </ul>
+        <h4 class="header">AWS Playlist Creator</h4>
+        <p class="subtitle">November - December 2019</p>
+        <ul>
+          <li>
+            Created a webapp using Java, AWS, HTML, CSS, and JavaScript that
+            allowed users to upload video segments and create playlists using
+            these segments
+          </li>
+          <li>
+            Allowed users to access remote S3 bucket video libraries to append
+            videos to playlists
+          </li>
+        </ul>
+        <h4 class="header">System Excel Writer</h4>
+        <p class="subtitle">June - August 2019</p>
+        <ul>
+          <li>
+            Developed a program that visualizes and compiles data from several
+            Excel spreadsheets into a single spreadsheet with a working GUI
+            using Tkinter, OpenPyXL, and other Python libraries
+          </li>
+          <li>
+            Saved company several hours by reducing overall process to seconds
+          </li>
+        </ul>
+      </div>
+      <br />
+      <div id="skills">
+        <h3 class="header">Skills</h3>
+        <h4 class="header">Programming Languages:</h4>
+        <p>Python, Java, C, C++, HTML, CSS, JavaScript, SQL</p>
+        <h4 class="header">Software:</h4>
+        <p>
+          GitHub, JetBrains IDEs, Eclipse, Oracle VirtualBox, MySQL Workbench,
+          Windows, Linux, Perforce
+        </p>
+      </div>
+      <br />
+      <div id="education">
+        <h3 class="header">Education</h3>
+        <h4 class="header">Worcester Polytechnic Institute (WPI)</h4>
+        <p class="subtitle">Worcester, MA | August 2018 - May 2022</p>
+        <p><b>Bachelor of Science in Computer Science</b> - GPA: 3.95/4.0</p>
+        <h4 class="header">Natick High School</h4>
+        <p class="subtitle">Natick, MA | September 2014 - June 2018</p>
+        <p><b>High School Diploma</b> - GPA (weighted): 4.1/4.0</p>
+      </div>
+      <br />
+      <div id="coursework">
+        <h3 class="header">Relevant Coursework</h3>
+        <p class="subtitle">
+          Accelerated Object-Oriented Design Concepts, Systems Programming
+          Concepts, Intro to Machine Organization and Assembly Language,
+          Algorithms, Operating Systems, Software Engineering, Database Systems
+          I & II
+        </p>
+      </div>
+      <br />
+      <div id="activities">
+        <h3 class="header">Activities & Awards</h3>
+        <span><b>Dean's List</b> - 4/4 Semesters - WPI</span>
+        <br />
+        <span class="subtitle">August 2018 - Present</span>
+        <br /><br />
+        <span><b>Upsilon Pi Epsilon (CS Honor Society)</b> - Member - WPI</span>
+        <br />
+        <span class="subtitle">January 2020 - Present</span>
+        <br /><br />
+        <span
+          ><b>Greenhouse & Horticulture Club</b> - Activities Manager -
+          WPI</span
+        >
+        <br />
+        <span class="subtitle">September 2019 - Present</span>
+        <br /><br />
+        <span><b>Charles O. Thompson Scholar</b> - WPI</span>
+        <br />
+        <span class="subtitle">March 2019</span>
+        <br /><br />
+        <span
+          ><b>First Place</b> - Rocket Software Hackathon - Worcester, MA</span
+        >
+        <br />
+        <span class="subtitle">November 2019</span>
+        <br /><br />
+        <span
+          ><b>Intramural Sports</b> - Basketball, Soccer, & Volleyball -
+          WPI</span
+        >
+        <br />
+        <span class="subtitle">November 2018 - Present</span>
+        <br /><br />
+        <span
+          ><b>Association of Computing Machinery</b> - Member - WPI
+          Chapter</span
+        >
+        <br />
+        <span class="subtitle">August 2018 - Present</span>
+      </div>
+      <br /><br />
+    </div>
+  </body>
+</html>
